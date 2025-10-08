@@ -11,8 +11,8 @@ ul {
 	/* assure que le navbar est centrer sur la page */
 	border : 3px solid #F08080;
 	background-color: #ADD8E6;
-	position: sticky;
-  top: 0;
+	position: sticky; /*Source: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp*/
+	top: 0;
 }
 ul li a {
 	display: block;
@@ -48,3 +48,4 @@ td {
   padding-left: 20 px;
   padding-right: 20 px;
 }
+
