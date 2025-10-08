@@ -4,12 +4,15 @@ ul {
 	/* enlève le format de la liste */
 	margin: 0 auto; /* Centre la boite sur la page */
 	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
+	height: 20%;
 	padding: 0;
 	display : flex;
 	justify-content : center; 
 	/* assure que le navbar est centrer sur la page */
 	border : 3px solid #F08080;
 	background-color: #ADD8E6;
+	position: sticky;
+  top: 0;
 }
 ul li a {
 	display: block;
@@ -28,10 +31,9 @@ ul li a:hover {
 }
 .joli {
 	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
-	height: auto; /* Agrandi au besoin mais, a une hauteur minimale */
-	margin: 0 auto; /* Centre la boite sur la page */
-	border: 3px solid #F08080;
+	border : 3px solid #F08080;
 	background-color: #ADD8E6;
+	box-sizing: border-box; /* Garantit que le remplissage et la bordure sont inclus dans la largeur/hauteur définie
 }
 body {
 	background-color: #F0F8FF;
@@ -43,15 +45,6 @@ table {
     margin-right: auto;
 }
 td {
-  padding-left: 7.5 px;
-  padding-right: 7.5 px;
+  padding-left: 20 px;
+  padding-right: 20 px;
 }
-
-
-
-
-
-
-
-
-
