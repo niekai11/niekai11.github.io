@@ -1,7 +1,6 @@
 /* Source: https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
 ul {
-	list-style-type: none;
-	/* enlève le format de la liste */
+	list-style-type: none; /* enlève le format de la liste */
 	margin: 0 auto; /* Centre la boite sur la page */
 	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
 	height: 20%;
@@ -48,4 +47,5 @@ td {
   padding-left: 20 px;
   padding-right: 20 px;
 }
+
 
