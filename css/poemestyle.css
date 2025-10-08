@@ -33,7 +33,6 @@ ul li a:hover {
 	margin: 0 auto; /* Centre la boite sur la page */
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	border : 3px solid #F08080;
 	background-color: #ADD8E6;
 	box-sizing: border-box; /* Garantit que le remplissage et la bordure sont inclus dans la largeur et hauteur définie*/
@@ -49,6 +48,7 @@ body {
       margin-left: auto;
       margin-right: auto;
     }
+
 
 
 
