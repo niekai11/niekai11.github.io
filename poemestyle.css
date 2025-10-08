@@ -1,0 +1,45 @@
+/* Source: https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+ul {
+	list-style-type: none;
+	/* enlève le format de la liste */
+	margin: 0 auto; /* Centre la boite sur la page */
+	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
+	padding: 0;
+	display : flex;
+	justify-content : center; 
+	/* assure que le navbar est centrer sur la page */
+	border : 3px solid #F08080;
+	background-color: #ADD8E6;
+}
+ul li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+    text-decoration: none;
+	/* enlève le format lien pour le rendre visuellement attrayant */
+	font-family: Courier New, monospace;
+	/*Source: https://www.w3schools.com/tags/tag_font.asp */
+}
+
+ul li a:hover {
+	background-color: #E9967A;
+	/* permet qu'un élément soit souligner lorsque la souris pose sur elle */
+}
+.joli {
+	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
+	min-height: 10px; /* Agrandi au besoin mais. a une hauteur minimale */
+	padding: 0 px;
+	margin: 0 auto; /* Centre la boite sur la page */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border : 3px solid #F08080;
+	background-color: #ADD8E6;
+	box-sizing: border-box; /* Garantit que le remplissage et la bordure sont inclus dans la largeur/hauteur définie */
+}
+body {
+	background-color: #F0F8FF;
+	margin-left: 0;
+	margin-right: 0;
+}
