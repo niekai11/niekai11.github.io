@@ -28,7 +28,7 @@ ul li a:hover {
 }
 .joli {
 	width: 800 px; /* Ajuste par rapport à la largeur de l'écran */
-	min-height: 10 px; /* Agrandi au besoin mais, a une hauteur minimale */
+	height: auto; /* Agrandi au besoin mais, a une hauteur minimale */
 	padding: 0 px;
 	margin: 0 auto; /* Centre la boite sur la page */
 	display: flex;
@@ -43,15 +43,11 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 }
-.centered-table {
-      width: 80%; /* Or any specific width less than 100% */
-      margin-left: auto;
-      margin-right: auto;
-}
 table { 
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
 
