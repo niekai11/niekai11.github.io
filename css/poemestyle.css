@@ -36,7 +36,7 @@ ul li a:hover {
 	align-items: center;
 	border : 3px solid #F08080;
 	background-color: #ADD8E6;
-	box-sizing: border-box; /* Garantit que le remplissage et la bordure sont inclus dans la largeur/hauteur définie
+	box-sizing: border-box; /* Garantit que le remplissage et la bordure sont inclus dans la largeur et hauteur définie*/
 
 }
 body {
@@ -44,5 +44,6 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 }
+
 
 
