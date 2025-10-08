@@ -15,7 +15,7 @@ ul li a {
 	display: block;
 	color: black;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14 px 16 px;
     text-decoration: none;
 	/* enlève le format lien pour le rendre visuellement attrayant */
 	font-family: Courier New, monospace;
@@ -27,12 +27,22 @@ ul li a:hover {
 	/* permet qu'un élément soit souligner lorsque la souris pose sur elle */
 }
 .joli {
+	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
+	min-height: 10 px; /* Agrandi au besoin mais, a une hauteur minimale */
+	padding: 0 px;
+	margin: 0 auto; /* Centre la boite sur la page */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border : 3px solid #F08080;
 	background-color: #ADD8E6;
+	box-sizing: border-box; /* Garantit que le remplissage et la bordure sont inclus dans la largeur/hauteur définie
+
 }
 body {
 	background-color: #F0F8FF;
 	margin-left: 0;
 	margin-right: 0;
 }
+
 
