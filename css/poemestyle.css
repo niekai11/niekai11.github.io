@@ -29,8 +29,8 @@ ul li a:hover {
 	/* permet qu'un élément soit souligner lorsque la souris pose sur elle */
 }
 .joli {
-	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
-	border : 3px solid #F08080;
+	text-align: center;
+	border: 3px solid #F08080;
 	background-color: #ADD8E6;
 	box-sizing: border-box; /* Garantit que le remplissage et la bordure sont inclus dans la largeur et l'hauteur définie */
 }
@@ -47,6 +47,7 @@ td {
   padding-left: 20 px;
   padding-right: 20 px;
 }
+
 
 
 
