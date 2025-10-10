@@ -3,12 +3,10 @@ ul {
 	list-style-type: none; /* enlève le format de la liste */
 	margin: 0 auto; /* Centre la boite sur la page */
 	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
-	height: 20%;
 	padding: 0;
-	display : flex;
-	justify-content : center; 
-	/* assure que le navbar est centrer sur la page */
-	border : 3px solid #F08080;
+	display: flex;
+	justify-content: center; /* assure que le navbar est centrer sur la page */
+	border: 3px solid #F08080;
 	background-color: #ADD8E6;
 	position: sticky; /*Source: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp*/
 	top: 0;
@@ -17,7 +15,6 @@ ul li a {
 	display: block;
 	color: black;
 	text-align: center;
-	padding: 14 px 16 px;
     text-decoration: none;
 	/* enlève le format lien pour le rendre visuellement attrayant */
 	font-family: Courier New, monospace;
@@ -47,6 +44,7 @@ td {
   padding-left: 20 px;
   padding-right: 20 px;
 }
+
 
 
 
