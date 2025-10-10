@@ -2,11 +2,11 @@
 ul {
 	list-style-type: none; /* enlève le format de la liste */
 	margin: 0 auto; /* Centre la boite sur la page */
-	width: 80%; /* Ajuste par rapport à la largeur de l'écran */
+	width: 80 %; /* Ajuste par rapport à la largeur de l'écran */
 	padding: 0;
 	display: flex;
 	justify-content: center; /* assure que le navbar est centrer sur la page */
-	border: 3px solid #F08080;
+	border: 3 px solid #F08080;
 	background-color: #ADD8E6;
 	position: sticky; /*Source: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp*/
 	top: 0;
@@ -15,10 +15,8 @@ ul li a {
 	display: block;
 	color: black;
 	text-align: center;
-    text-decoration: none;
-	/* enlève le format lien pour le rendre visuellement attrayant */
-	font-family: Courier New, monospace;
-	/*Source: https://www.w3schools.com/tags/tag_font.asp */
+    text-decoration: none;	/* enlève le format lien pour le rendre visuellement attrayant */
+	font-family: Courier New, monospace; /*Source: https://www.w3schools.com/tags/tag_font.asp */
 }
 
 ul li a:hover {
@@ -26,8 +24,8 @@ ul li a:hover {
 	/* permet qu'un élément soit souligner lorsque la souris pose sur elle */
 }
 .joli {
-	width: 100%;
-	border: 3px solid #F08080;
+	width: 100 %;
+	border: 3 px solid #F08080;
 	background-color: #ADD8E6;
 	box-sizing: border-box; /* Garantit que le remplissage et la bordure sont inclus dans la largeur et l'hauteur définie */
 }
@@ -44,6 +42,7 @@ td {
   padding-left: 20 px;
   padding-right: 20 px;
 }
+
 
 
 
