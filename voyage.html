@@ -3,74 +3,68 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Mon voyage parfait</title>
-		<link rel="stylesheet" href="poemestyle.css">	
+		<link rel="stylesheet" href="css/voyagestyle.css">	
+		<style>
+			a[href="#retour"] {
+				text-decoration: none; <!-- Removes the underline -->
+				color: black; <!-- Sets the link color to black -->
+			}
+		</style>
 	</head>
 	<body>
-		<center><h1><b>Cours ICS3U - Génie informatique</b></h1></center>
+		<a name="retour"><center><h1><b>Cours ICS3U - Génie informatique</b></h1></center></a>
 		<center><h2>Mon portfolio web<h2></center>
 		<center><p style="font-size: 18 px;">MES PAGES HTML:</p></center> <!-- Source: https://www.w3schools.com/tags/tag_font.asp -->
-  	<ul>
-  		<li><a target="_blank" href="poeme.html">POÈME</a>
-  		<li><a target="_blank" href="voyage.html">VOYAGE DE RÊVE</a>
-  		<li><a target="_blank" href="biographie.html">BIOGRAPHIE</a>
-  	</ul>
+		<ul>
+			<li><a href="poeme.html">POÈME</a>
+			<li><a href="voyage.html">VOYAGE DE RÊVE</a>
+			<li><a href="biographie.html">BIOGRAPHIE</a>
+		</ul>
 		<center>
 			<h1>Mon voyage parfait</h1>
-			<p style="font-family: Courier New, monospace;">Source:</b><a target="_blank" href="https://medium.com/@EmEmbarty/31-of-the-best-and-most-famous-short-classic-poems-of-all-time-e445986e6dfu">Medium - Still I Rise par Maya Angelou</a></p>
-		</center>
 			<h3>DESCRIPTION</h3>
-			<img src="images/marrakech.jpg" alt="Marrakech" width="40%"/> <!-- https://tourscanner.fr/que-faire-voir-visiter-marrakech -->
-			<p>Marrakech, située au pied des montagnes de l’Atlas, est une ville vibrante reconnue pour ses couleurs chaudes, son architecture mauresque et son atmosphère envoûtante. Cœur historique du Maroc, elle séduit par ses souks animés, la médina classée à l’UNESCO, ses jardins luxuriants et la célèbre place Jemaa el-Fna, où traditions et modernité se rencontrent. Climat ensoleillé, artisanat raffiné et cuisine parfumée en font une destination incontournable pour une immersion culturelle unique.</p>
-			<div class="joli">
-				<p><b>Savais-tu que?</b></p>
-				<p>Marrakech possède une géographie variée, avec des montagnes de l'Atlas à proximité (comme le Toubkal), l'océan Atlantique à environ 150 km et des zones désertiques accessibles, le tout sur un relief plat. La ville est divisée entre sa médina historique et les quartiers modernes, et elle est célèbre pour sa palmeraie luxuriante et le fleuve Tensift qui traverse ses environs. </p> <!-- https://fr.wikipedia.org/wiki/Marrakech -->
+			<img src="images/marrakech.jpg" alt="Marrakech" class="center"/> <!-- https://tourscanner.fr/que-faire-voir-visiter-marrakech -->
+			<p style="width: 80%;">Marrakech, située au pied des montagnes de l’Atlas, est une ville vibrante reconnue pour ses couleurs chaudes, son architecture mauresque et son atmosphère envoûtante. Cœur historique du Maroc, elle séduit par ses souks animés, la médina classée à l’UNESCO, ses jardins luxuriants et la célèbre place Jemaa el-Fna, où traditions et modernité se rencontrent. Climat ensoleillé, artisanat raffiné et cuisine parfumée en font une destination incontournable pour une immersion culturelle unique.</p>
+			<div class="joli" style="width: 80%;">
+				<p><b>Savais-tu que?</b>
+				<br>
+				Marrakech possède une géographie variée, avec des montagnes de l'Atlas à proximité (comme le Toubkal), l'océan Atlantique à environ 150 km et des zones désertiques accessibles, le tout sur un relief plat. La ville est divisée entre sa médina historique et les quartiers modernes, et elle est célèbre pour sa palmeraie luxuriante et le fleuve Tensift qui traverse ses environs. </p> <!-- https://fr.wikipedia.org/wiki/Marrakech -->
 			</div>	
 			<h3>SITES À VOIR</h3>
-				<table>
-					<th>
-						<td colspan="2"><center><h4>Médina de Marrakech</h4></center></td>
-					</th>
-					<tr>
-						<td><img src="images/medina.jpg" alt="Médina de Marrakech" width="150%"/> <!-- https://fr.tripadvisor.ca/Attraction_Review-g293734-d324126-Reviews-Medina_of_Marrakesh-Marrakech_Marrakech_Safi.html --></td>
-						<td rowspan="2">La Médina de Marrakech, inscrite au patrimoine mondial de l’UNESCO depuis 1985, est un vaste labyrinthe historique d’environ 600 hectares, datant du XIIe siècle. Elle se caratérise par une architecture unique avec ses maisons traditionnelles autour de patios (riads), ses ruelles étroites et ses souks animés où prospèrent artisans et commerçants. La médina est un vivant témoignage de l’urbanisme médiéval islamique, avec des monuments emblématiques comme la mosquée de la Koutoubia, la Kasbah, les tombeaux saâdiens, et des palais prestigieux.</td>
-					</tr>
-				</table>
-				<table>
-					<th>
-						<td colspan="2"><center><h4>Le jardin Majorelle</h4></center></td>
-					</th>
-					<tr>
-						<td><img src="images/medina.jpg" alt="Le jardin Majorelle" width="150%"/> <!-- https://fr.tripadvisor.ca/Attraction_Review-g293734-d324126-Reviews-Medina_of_Marrakesh-Marrakech_Marrakech_Safi.html --></td>
-						<td rowspan="2">Le jardin Majorelle est un jardin botanique célèbre pour son bleu intense appelé "bleu Majorelle" et sa végétation exotique, autrefois propriété du couturier Yves Saint Laurent. C'est un havre de paix au cœur de la ville avec aussi le Musée Berbère à proximité.</td> <!-- https://www.visitmorocco.com/fr/voyage/marrakech -->
-					</tr>
-				</table>
-				<table>
-					<th>
-						<td colspan="2"><center><h4>Le palais El Badi</h4></center></td>
-					</th>
-					<tr>
-						<td><img src="images/medina.jpg" alt="Le palais El badi" width="150%"/> <!-- https://fr.tripadvisor.ca/Attraction_Review-g293734-d324126-Reviews-Medina_of_Marrakesh-Marrakech_Marrakech_Safi.html --></td>
-						<td rowspan="2">Construit entre 1578 et 1594 par le sultan saadien Ahmed al-Mansur, le Palais El Badi symbolise la grandeur et la richesse de la dynastie saadienne. Il comptait à son apogée 360 pièces richement décorées avec du marbre italien, des feuilles d’or et des mosaïques de Fès. Aujourd’hui en ruines, il conserve une immense cour intérieure avec des bassins, jardins et vestiges de pavillons royaux. Le site comme tel, offre des vues panoramiques sur Marrakech.</td> <!--Source: https://villatajmarrakech.com/guide/palais-el-badi/-->
-					</tr>
-				</table>
-				<table>
-					<th>
-						<td colspan="2"><center><h4>Medersa Ben Youssef</h4></center></td>
-					</th>
-					<tr>
-						<td><img src="images/medina.jpg" alt="Medersa Ben Youssef" width="150%"/> <!-- https://fr.tripadvisor.ca/Attraction_Review-g293734-d324126-Reviews-Medina_of_Marrakesh-Marrakech_Marrakech_Safi.html --></td>
-						<td rowspan="2">Cette ancienne école coranique, fondée au XIVe siècle et reconstruite au XVIe siècle, est réputée pour sa décoration raffinée avec des mosaïques zellige, bois sculpté et stucs ciselés. Elle servait de lieu d’enseignement religieux et de résidence pour les étudiants. Située au cœur de la médina, la Médrassa Ben Youssef est un joyau architectural du style arabo-andalou.</td> <!-- Source: https://guiamarrakech.com/ -->
-					</tr>
-				</table>
+			<h4>Médina de Marrakech</h4>
+			<img src="images/medina.jpg" alt="Médina de Marrakech" class="center"/> <!-- https://fr.tripadvisor.ca/Attraction_Review-g293734-d324126-Reviews-Medina_of_Marrakesh-Marrakech_Marrakech_Safi.html -->
+			<h4>Le jardin Majorelle</h4>
+			<img src="images/jm.jpg" alt="Le jardin Majorelle" class="center"/> <!-- https://fr.tripadvisor.ca/Attraction_Review-g293734-d477277-Reviews-Jardin_Majorelle-Marrakech_Marrakech_Safi.html -->
+			<h4>Le palais El Badi</h4>
+			<img src="images/peb.jpg" alt="Le palais El badi" class="center"/> <!-- https://www.barcelo.com/guia-turismo/fr/maroc/marrakech/a-voir-et-a-faire/palais-el-badi/ -->
+			<h4>Medersa Ben Youssef</h4>
+			<img src="images/youssef.jpg" alt="Medersa Ben Youssef" class="center"/> <!-- https://riaddeslys.com/fr/medersa-ben-youssef/ -->	
 			<br>
 			<br>
-			<div class="abc">
-				<p><a href="#retour">Retour en haut</a></p>
-			</div>
+		<h3>METS POPULAIRES</h3>
+		<table>
+			<tr>
+				<td>Tajine</td>
+				<td><img src="images/tajine.jpg" alt="Tajine" class="center"/> <!-- https://ici.radio-canada.ca/mordu/recettes/4611/tajine-poulet --></td>
+			</tr>
+			<tr>
+				<td>Couscous</td>
+				<td><img src="images/couscous.jpg" alt="Couscous" class="center"/> <!-- https://www.cuisineaz.com/recettes/couscous-marocain-31389.aspx --></td>
+			</tr>
+			<tr>
+				<td>Pastilla</td>
+				<td><img src="images/pastilla.jpg" alt="Pastilla" class="center"/> <!-- https://cooking.nytimes.com/recipes/1025905-chicken-pastilla --></td>
+			</tr>
+			<tr>
+				<td>Harira</td>
+				<td><img src="images/harira.jpg" alt="Harira" class="center"/> <!-- https://www.passeportsante.net/nutrition/recettes/harira --></td>
+			</tr>			
+		</table>
+		<div class="return" style="width: 10%;">
+			<p><a href="#retour">Retour en haut</a></p>
+		</div>
 		</center>
 	</body>
 </html>
 <!-- PAR KAITLYN NIELSEN -->
-
-
 
