@@ -1,0 +1,80 @@
+/* Source: https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+ul {
+	list-style-type: none;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0;
+	display : flex;
+	justify-content : center;
+	border : 3px solid #F08080;
+	background-color: #ADD8E6;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+}
+ul li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul li a:hover {
+	background-color: #E9967A;
+}
+ol {
+	list-style-type: none;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0;
+	display : flex;
+	justify-content : center;
+	border : 3px solid #F08080;
+	background-color: #ADD8E6;
+}
+ol li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.joli {
+    width: 100 %;
+    border: 3px solid #F08080;
+    background-color: #ADD8E6;
+  	display: flex;
+    justify-content: center;
+	text-align: center;
+    box-sizing: border-box;
+    /* Garantit que le remplissage et la bordure sont inclus dans la largeur et l'hauteur définie */
+}
+body {
+    background-color: #F0F8FF;
+    margin-left: 0;
+    margin-right: 0;
+}
+table {
+    text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+ 	border-spacing: 15px; /* Source: https://www.w3schools.com/html/html_table_padding_spacing.asp#:~:text=HTML%20tables%20can%20adjust%20the%20padding%20inside,and%20also%20the%20space%20between%20the%20cells. */
+}
+.center { /*Source:https://www.w3schools.com/howto/howto_css_image_center.asp*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.return {
+    width: 100 %;
+    border: 3px solid #F08080;
+    background-color: #ADD8E6;
+  	display: flex;
+    justify-content: center;
+	text-align: center;
+    box-sizing: border-box;
+    /* Garantit que le remplissage et la bordure sont inclus dans la largeur et l'hauteur définie */
+}
