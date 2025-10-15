@@ -5,14 +5,14 @@
 		<title>Biographie</title>
 		<link rel="stylesheet" href="css/biographiestyle.css">	
 		<style>
-			a href="#retour" {
+			a[href="#retour"] {
 				text-decoration: none; <!-- Removes the underline -->
 				color: black; <!-- Sets the link color to black -->
 			}
 		</style>
 	</head>
 	<body>
-		<center><h1><b>Cours ICS3U - Génie informatique</b></h1></center>
+		<a name="retour"><center><h1><b>Cours ICS3U - Génie informatique</b></h1></center></a>
 		<center><h2>Mon portfolio web<h2></center>
 		<center><p style="font-size: 18 px;">MES PAGES HTML:</p></center> <!-- Source: https://www.w3schools.com/tags/tag_font.asp -->
 		<ul>
@@ -20,9 +20,15 @@
 			<li><a href="voyage.html">VOYAGE DE RÊVE</a>
 			<li><a href="biographie.html">BIOGRAPHIE</a>
 		</ul>
+		<center><h1>Ma biographie</h1></center>
+		<center><h3>MENU:</h3></center>
+		<ol>
+			<li><a href="#moi">Qui suis-je ?</a>
+			<li><a href="#pref">Liens préférés</a>
+			<li><a href="#ct">Compétences technologiques</a>
+		</ol>
 		<center>
-			<h1>Ma biographie</h1>
-			<h3>QUI SUIS-JE ?</h3>
+			<a name="moi"><h3>QUI SUIS-JE ?:</h3></a>
 			<div class="joli" style="width: 80%;">
 				<table>
 					<tr>
@@ -31,13 +37,67 @@
 				<tr>
 					<td><img src="images/pfp.jpg" alt="Lac avec montagnes" class="center"/></td>
 				</tr>
+				<tr>
+					<td><p>Bonjour! Je suis un codeur débutant qui aime faire du sport. Mes colours préférés sont le bleu et le corail, si tu ne pouvais pas le deviner par la thématique de ma page.</p></td>
+				</tr>
 				</table>
 			</div>
-		<h3>Voici mes lien préférés:</h3>
+		<a name="pref"><h3>MES LIENS PRÉFÉRÉS:</h3></a>
 		<ol>
 			<li><a target="_blank" href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Wikipedia</a>
 			<li><a target="_blank" href="https://snakegame.org/">Snake Game</a>
 			<li><a target="_blank" href="https://www.remove.bg/fr">Removebg</a>
 			<li><a target="_blank" href="https://www.w3schools.com/">w3schools</a>
 		</ol>
+		<a name="ct"><h3>MES COMPÉTENCES TECHNOLOGIQUES:</h3></a>
+		<div class="joli" style="width: 80%;">
+			<br>
+			<table>
+				<thead>
+					<th>Compétence technologique</th>
+					<th>Débutant</th>
+					<th>Compétant</th>
+					<th>Expert</th>
+					<th>Maître</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Programmation HTML</td>
+						<td> </td>
+						<td>x</td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td>Programmation CSS</td>
+						<td> </td>
+						<td>x</td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td>Programmation Javascript</td>
+						<td>x</td>
+						<td> </td>
+						<td> </td>
+						<td> </td>
+					</tr>
+					<tr>
+						<td>Navigation web</td>
+						<td> </td>
+						<td> </td>
+						<td>x</td>
+						<td> </td>
+					</tr>
+				</tbody>
+			</table>
+		<br>
+		</div>
+		<br>
+		<div class="return" style="width: 10%;">
+			<p><a href="#retour">Retour en haut</a></p>
+		</div>
 		</center>
+	</body>
+<html>
+<!-- PAR KAITLYN NIELSEN -->
