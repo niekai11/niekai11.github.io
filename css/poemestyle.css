@@ -1,19 +1,14 @@
 /* Source: https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
 ul {
-    list-style-type: none;
-    /* enlève le format de la liste */
-    margin: 0 auto;
-    /* Centre la boite sur la page */
-    width: 80 %;
-    /* Ajuste par rapport à la largeur de l'écran */
+    list-style-type: none; /* enlève le format de la liste */
+    margin: 0 auto; /* Centre la boite sur la page */
+    width: 80 %; /* Ajuste par rapport à la largeur de l'écran */
     padding: 0;
     display: flex;
-    justify-content: center;
-    /* assure que le navbar est centrer sur la page */
+    justify-content: center; /* assure que le navbar est centrer sur la page */
     border: 3px solid #F08080;
     background-color: #ADD8E6;
-    position: sticky;
-    /*Source: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp*/
+    position: sticky; /*Source: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp*/
     top: 0;
 }
 
@@ -52,3 +47,4 @@ table {
     margin-right: auto;
  	border-spacing: 25px; /* Source: https://www.w3schools.com/html/html_table_padding_spacing.asp#:~:text=HTML%20tables%20can%20adjust%20the%20padding%20inside,and%20also%20the%20space%20between%20the%20cells. */
 }
+
