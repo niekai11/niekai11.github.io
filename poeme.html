@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Poeme</title>
-    <link rel="stylesheet" href="poemestyle.css">
+    <link rel="stylesheet" href="css/poemestyle.css">
+	<style>
+		a[href="#retour"] {
+			text-decoration: none; <!-- Removes the underline -->
+			color: black; <!-- Sets the link color to black -->
+		}
+	</style>
 </head>
-
 <body>
-    <center>
-        <h1><b>Cours ICS3U - Génie informatique</b></h1>
-    </center>
+    <a name="retour"><center><h1><b>Cours ICS3U - Génie informatique</b></h1></center></a>
     <center>
         <h2>Mon portfolio web<h2>
     </center>
@@ -17,17 +20,11 @@
         <p style="font-size: 18 px;">MES PAGES HTML:</p>
     </center> <!-- Source: https://www.w3schools.com/tags/tag_font.asp -->
     <ul>
-      	<br>
-        <li><a target="_blank" href="poeme.html">POÈME</a>
-        <br>
-        <li><a target="_blank" href="voyage.html">VOYAGE DE RÊVE</a>
-        <br>
-        <li><a target="_blank" href="biographie.html">BIOGRAPHIE</a>
-        <br>
+        <li><a href="poeme.html">POÈME</a>
+		<li><a href="voyage.html">VOYAGE DE RÊVE</a>
+		<li><a href="biographie.html">BIOGRAPHIE</a>
     </ul>
     <center>
-        <p>Bienvenu à ma page poème. Pour naviguer entre les pages, cliquez les liens si-dessu
-        <p>
         <h1>POÈME</h1>
         <p style="font-family: Courier New, monospace;">Source:</b><a target="_blank" href="https://www.poetryfoundation.org/poems/46446/still-i-rise">Still I Rise par Maya Angelou</a></p>
     </center>
@@ -35,7 +32,7 @@
         <table style="width: 80%;">
             <tr>
                 <td style="width: 65%;">
-                    <div class="joli" style="text-align: left;">
+                    <div class="joli">
                         <p><b>“Still I Rise”</b>
                       	<br>
                         <br>You may write me down in history<br>With your bitter, twisted lies,<br>You may tread me in the very dirt<br>But still, like dust, I’ll rise.
@@ -59,11 +56,15 @@
                     </div>
                 </td>
                 <td style="width: 35%; vertical-align: middle; text-align: center">
-                    <img src="ma.jpeg" alt="Still I Rise - Maya Angelou" width="300 px"/>
+                    <img src="images/sirma.jpg" alt="Still I Rise - Maya Angelou" width="100%"/>
                     <!--https://tokillabloggingbird96286054.wordpress.com/2018/11/27/still-i-rise/-->
                 </td>
             </tr>
         </table>
-    </center>
+	</div>
+	<div class="return" style="width: 10%;">
+			<p><a href="#retour">Retour en haut</a></p>
+	</div>
+	</center>
 </body>
 </html>
