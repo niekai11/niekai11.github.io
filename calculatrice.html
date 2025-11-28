@@ -39,28 +39,23 @@
             let num1 = parseInt(document.getElementById("txtNum1").value);
             let num2 = parseInt(document.getElementById("txtNum2").value);
             let affiche = document.getElementById("divAffiche");
-            //Pour déterminer lesquels des checkbox sont cochés
+            let resultat = ""
+            //Pour déterminer lesquels des checkbox sont cochés + procédures
             let checkOperation = document.getElementsByName("operations");
             for (let i=0; i < checkOperation.length; i++) {
               if (checkOperation[0].checked) {
-                let addition = (num1 + num2)
-                return addition
+                resultat += "Addition: " + (num1 + num2) + "<br>";
               }if (checkOperation[1].checked) {
-                let soustraction = (num1 - num2)
-                return soustraction
+                resultat += "Soustraction: " + (num1 - num2) + "<br>";
               }if (checkOperation[2].checked) {
-                let multiplication = (num1 * num2)
-                return multiplication
+                resultat += "Multiplication: " + (num1 * num2) + "<br>";
               }if (checkOperation[3].checked) {
-                let division = (num1 / num2)
-                return division
+                resultat += "Division: " + (num1 / num2) + "<br>";
               }if (checkOperation[4].checked) {
-                let modulo = (num1 % num2)
-                return modulo
+                resultat += "Modulo: " + (num1 % num2) + "<br>";
               }
             }
-
-        affiche.innerHTML = return;
+        affiche.innerHTML = resultat;
         }
     </script>
   </form>
